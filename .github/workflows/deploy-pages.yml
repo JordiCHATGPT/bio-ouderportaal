@@ -30,7 +30,7 @@ jobs:
       - name: Upload portal page
         uses: actions/upload-pages-artifact@v5
         with:
-          path: index.html
+          path: .
       - name: Deploy portal
         id: deployment
         uses: actions/deploy-pages@v4
